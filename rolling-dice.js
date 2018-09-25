@@ -1,5 +1,4 @@
 var args = process.argv.slice(2)
-var resultsContainer = []
 var outputString = "Rolled " + args + " dice: "
 
 function outputDice(numberOfDice) {
@@ -9,6 +8,4 @@ function outputDice(numberOfDice) {
   return outputString.slice(0,-2);
 };
 
-
 console.log(outputDice(args));
-
